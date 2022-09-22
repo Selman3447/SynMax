@@ -1,0 +1,27 @@
+1.5
+
+News:
+
+[=]Changed:App theme
+[*]Fixed:Frezzing bugs
+[=]Changed:Custom Error UI
+[+]Added:More Pages
+[+]Added:New Loading Screen
+ |----> Added Progress Bar
+ |----> Added Loaded Bytes
+[+]Added:Final Screen
+
+
+
+1.1
+
+News:
+
+[=]Changed:Buttons now better
+[*]Fixed:Now Quality>Radio buttons don't freezing
+ |----> Bug:Find> Loading now frezzing
+[+]Added:Mouse event (Dragging) added in Naviagiton Bar
+[+]Added:Custom Error UI
+[+]Added:Auto Font Size
+ |----> Yt Title, Author
+[+]Added:White Line (in after find)
