@@ -202,7 +202,7 @@ border-radius: 10.99px;
      <string/>
     </property>
     <property name="currentIndex">
-     <number>5</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="page">
      <widget class="QFrame" name="frame">
@@ -289,7 +289,7 @@ color: rgb(204, 204, 204);
         <rect>
          <x>120</x>
          <y>120</y>
-         <width>361</width>
+         <width>301</width>
          <height>20</height>
         </rect>
        </property>
@@ -315,7 +315,7 @@ border-radius: 10px;</string>
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>200</y>
+         <y>220</y>
          <width>591</width>
          <height>51</height>
         </rect>
@@ -340,8 +340,8 @@ border-radius: 10px;</string>
        <property name="geometry">
         <rect>
          <x>120</x>
-         <y>290</y>
-         <width>361</width>
+         <y>310</y>
+         <width>301</width>
          <height>20</height>
         </rect>
        </property>
@@ -367,7 +367,7 @@ border-radius: 10px;</string>
        <property name="geometry">
         <rect>
          <x>410</x>
-         <y>320</y>
+         <y>340</y>
          <width>70</width>
          <height>41</height>
         </rect>
@@ -419,6 +419,223 @@ color: rgb(204, 204, 204);
         <pixmap>Mesmerizing Geometric GIFs by Florian de Looij _ Inspiration Grid.gif</pixmap>
        </property>
       </widget>
+      <widget class="QFrame" name="frame_4">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>20</y>
+         <width>394</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="paster">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>100</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Symbol</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(214, 214, 214);
+color : rgb(0, 0, 0);
+border-radius: 10px;
+qproperty-alignment: AlignCenter;</string>
+        </property>
+        <property name="text">
+         <string notr="true">Paste</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_5">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>210</y>
+         <width>394</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QPushButton" name="paster_2">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>100</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Symbol</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(214, 214, 214);
+color : rgb(0, 0, 0);
+border-radius: 10px;
+qproperty-alignment: AlignCenter;</string>
+        </property>
+        <property name="text">
+         <string notr="true">Paste</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="close_2">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>20</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>19</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgb(0, 122, 203);
+	color: rgb(255, 255, 255);
+border-radius: 20px;
+}
+
+QPushButton:hover{
+
+	
+	background-color: rgb(0, 137, 222);
+
+
+}
+
+
+QPushButton:pressed {
+background-color: rgb(0, 108, 176);
+border-radius: 14.99px;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>İ</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="close_3">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>70</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Sylfaen</family>
+         <pointsize>14</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgb(0, 122, 203);
+	color: rgb(255, 255, 255);
+border-radius: 20px;
+}
+
+QPushButton:hover{
+
+	
+	background-color: rgb(0, 137, 222);
+
+
+}
+
+
+QPushButton:pressed {
+background-color: rgb(0, 108, 176);
+border-radius: 14.99px;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../../Downloads/settings-svgrepo-com.svg</normaloff>../../../Downloads/settings-svgrepo-com.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <zorder>frame_5</zorder>
+      <zorder>frame_4</zorder>
+      <zorder>url</zorder>
+      <zorder>finder</zorder>
+      <zorder>searchbar</zorder>
+      <zorder>urlplaylist</zorder>
+      <zorder>searchbar_p</zorder>
+      <zorder>finder_p</zorder>
+      <zorder>loading</zorder>
+      <zorder>close_2</zorder>
+      <zorder>close_3</zorder>
      </widget>
     </widget>
     <widget class="QWidget" name="page_2">
@@ -448,158 +665,6 @@ color: rgb(204, 204, 204);
       <property name="frameShadow">
        <enum>QFrame::Raised</enum>
       </property>
-      <widget class="QLabel" name="thumbnail">
-       <property name="geometry">
-        <rect>
-         <x>180</x>
-         <y>20</y>
-         <width>231</width>
-         <height>153</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 29px;</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>../../../../.designer/backup/tbls/thunbail.jpg</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-       <property name="openExternalLinks">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="ytitle">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>180</y>
-         <width>571</width>
-         <height>121</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>25</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: none;</string>
-       </property>
-       <property name="inputMethodHints">
-        <set>Qt::ImhNone</set>
-       </property>
-       <property name="text">
-        <string notr="true">ereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</string>
-       </property>
-       <property name="textFormat">
-        <enum>Qt::AutoText</enum>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-       <property name="margin">
-        <number>0</number>
-       </property>
-       <property name="indent">
-        <number>-1</number>
-       </property>
-       <property name="openExternalLinks">
-        <bool>false</bool>
-       </property>
-       <property name="textInteractionFlags">
-        <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="ytime">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>10</y>
-         <width>201</width>
-         <height>111</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI Symbol</family>
-         <pointsize>21</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: none;</string>
-       </property>
-       <property name="text">
-        <string>Length</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignHCenter|Qt::AlignTop</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="ytauthor">
-       <property name="geometry">
-        <rect>
-         <x>370</x>
-         <y>10</y>
-         <width>201</width>
-         <height>111</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI Symbol</family>
-         <pointsize>21</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: none;</string>
-       </property>
-       <property name="text">
-        <string>Author</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
-       </property>
-      </widget>
-      <widget class="QLabel" name="description">
-       <property name="geometry">
-        <rect>
-         <x>10</x>
-         <y>310</y>
-         <width>571</width>
-         <height>111</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: none;</string>
-       </property>
-       <property name="text">
-        <string>TextLabel</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-       </property>
-      </widget>
       <widget class="QPushButton" name="finder_p_2">
        <property name="geometry">
         <rect>
@@ -680,6 +745,259 @@ color: rgb(204, 204, 204);
         <string>Cancel</string>
        </property>
       </widget>
+      <widget class="QFrame" name="frame_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>571</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="thumbnail">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>231</width>
+          <height>153</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 29px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../../../.designer/backup/tbls/thunbail.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ytitle">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>291</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: none;</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhNone</set>
+        </property>
+        <property name="text">
+         <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AAAAAAAAAAAAAA&lt;/p&gt;&lt;p&gt;AAAAAAAAAAAAAA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="margin">
+         <number>1</number>
+        </property>
+        <property name="indent">
+         <number>-1</number>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ytime">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>160</y>
+          <width>101</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Symbol</family>
+          <pointsize>21</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: none;</string>
+        </property>
+        <property name="text">
+         <string>Length</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignHCenter|Qt::AlignTop</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="ytauthor">
+        <property name="geometry">
+         <rect>
+          <x>270</x>
+          <y>130</y>
+          <width>281</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Symbol</family>
+          <pointsize>21</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: none;</string>
+        </property>
+        <property name="text">
+         <string>Author</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTop|Qt::AlignTrailing</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>571</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="description">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>541</width>
+          <height>161</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: none;</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="finder_p_6">
+       <property name="geometry">
+        <rect>
+         <x>230</x>
+         <y>420</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>13</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: rgb(31, 138, 0);
+color: rgb(255, 255,255);
+border-radius: 20px;
+}
+
+QPushButton:hover{
+ 
+	
+	
+	background-color: rgb(42, 181, 0);
+}
+
+QPushButton:pressed {
+background-color: rgb(24, 103, 0);
+color: rgb(204, 204, 204);
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Auto Download</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="page_3">
@@ -735,91 +1053,11 @@ color: rgb(255, 255, 255);</string>
         <string>Select Directory And File Name</string>
        </property>
       </widget>
-      <widget class="QLabel" name="thumbnai2">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>50</y>
-         <width>165</width>
-         <height>109</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 29px;</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>../../../../.designer/backup/tbls/thunbail.jpg</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-       <property name="openExternalLinks">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="vidname_2">
-       <property name="geometry">
-        <rect>
-         <x>190</x>
-         <y>50</y>
-         <width>371</width>
-         <height>101</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>25</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: none;</string>
-       </property>
-       <property name="inputMethodHints">
-        <set>Qt::ImhNone</set>
-       </property>
-       <property name="text">
-        <string notr="true">ereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</string>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-       <property name="margin">
-        <number>0</number>
-       </property>
-       <property name="indent">
-        <number>-1</number>
-       </property>
-       <property name="openExternalLinks">
-        <bool>false</bool>
-       </property>
-       <property name="textInteractionFlags">
-        <set>Qt::LinksAccessibleByMouse</set>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_7">
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>170</y>
+         <y>180</y>
          <width>181</width>
          <height>31</height>
         </rect>
@@ -842,7 +1080,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>210</y>
+         <y>220</y>
          <width>341</width>
          <height>20</height>
         </rect>
@@ -866,7 +1104,7 @@ border-radius: 10px;</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>240</y>
+         <y>250</y>
          <width>111</width>
          <height>41</height>
         </rect>
@@ -898,7 +1136,7 @@ color: rgb(204, 204, 204);
        <property name="geometry">
         <rect>
          <x>360</x>
-         <y>240</y>
+         <y>250</y>
          <width>111</width>
          <height>41</height>
         </rect>
@@ -1118,6 +1356,119 @@ color: rgb(204, 204, 204);
         <string>Cancel</string>
        </property>
       </widget>
+      <widget class="QFrame" name="frame_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>571</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="thumbnai2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>165</width>
+          <height>109</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 29px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../../../.designer/backup/tbls/thunbail.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="vidname_2">
+        <property name="geometry">
+         <rect>
+          <x>180</x>
+          <y>10</y>
+          <width>371</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: none;</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhNone</set>
+        </property>
+        <property name="text">
+         <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AAAAAAAAAAAAAA&lt;/p&gt;&lt;p&gt;AAAAAAAAAAAAAA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="margin">
+         <number>1</number>
+        </property>
+        <property name="indent">
+         <number>-1</number>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+        </property>
+       </widget>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="page_4">
@@ -1253,114 +1604,11 @@ color: rgb(255, 255, 255);</string>
         <string>      Select Download Types</string>
        </property>
       </widget>
-      <widget class="QLabel" name="thumbnail_4">
-       <property name="geometry">
-        <rect>
-         <x>20</x>
-         <y>50</y>
-         <width>165</width>
-         <height>109</height>
-        </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);
-border-radius: 29px;</string>
-       </property>
-       <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
-       </property>
-       <property name="text">
-        <string/>
-       </property>
-       <property name="pixmap">
-        <pixmap>../../../../.designer/backup/tbls/thunbail.jpg</pixmap>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignCenter</set>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-       <property name="openExternalLinks">
-        <bool>false</bool>
-       </property>
-      </widget>
-      <widget class="QLabel" name="VideoSize_2">
-       <property name="geometry">
-        <rect>
-         <x>480</x>
-         <y>140</y>
-         <width>101</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <family>Segoe UI Symbol</family>
-         <pointsize>21</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: none;
-color: rgb(255, 255, 255);</string>
-       </property>
-       <property name="text">
-        <string>Size</string>
-       </property>
-      </widget>
-      <widget class="QLabel" name="vidname_3">
-       <property name="geometry">
-        <rect>
-         <x>190</x>
-         <y>50</y>
-         <width>371</width>
-         <height>101</height>
-        </rect>
-       </property>
-       <property name="font">
-        <font>
-         <pointsize>25</pointsize>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">background-color: none;</string>
-       </property>
-       <property name="inputMethodHints">
-        <set>Qt::ImhNone</set>
-       </property>
-       <property name="text">
-        <string notr="true">ereeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</string>
-       </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-       </property>
-       <property name="wordWrap">
-        <bool>false</bool>
-       </property>
-       <property name="margin">
-        <number>0</number>
-       </property>
-       <property name="indent">
-        <number>-1</number>
-       </property>
-       <property name="openExternalLinks">
-        <bool>false</bool>
-       </property>
-       <property name="textInteractionFlags">
-        <set>Qt::LinksAccessibleByMouse</set>
-       </property>
-      </widget>
       <widget class="QLabel" name="label_9">
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>170</y>
+         <y>180</y>
          <width>181</width>
          <height>31</height>
         </rect>
@@ -1376,14 +1624,14 @@ color: rgb(255, 255, 255);</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>File Name</string>
+        <string>File Format</string>
        </property>
       </widget>
       <widget class="QRadioButton" name="MP4">
        <property name="geometry">
         <rect>
          <x>230</x>
-         <y>220</y>
+         <y>230</y>
          <width>81</width>
          <height>31</height>
         </rect>
@@ -1414,7 +1662,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>330</x>
-         <y>220</y>
+         <y>230</y>
          <width>71</width>
          <height>31</height>
         </rect>
@@ -1445,7 +1693,7 @@ color: rgb(255, 255, 255);</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>220</y>
+         <y>230</y>
          <width>82</width>
          <height>31</height>
         </rect>
@@ -1477,7 +1725,7 @@ font: 20pt &quot;Segoe UI Symbol&quot;;</string>
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>260</y>
+         <y>270</y>
          <width>181</width>
          <height>31</height>
         </rect>
@@ -1493,14 +1741,14 @@ font: 20pt &quot;Segoe UI Symbol&quot;;</string>
 color: rgb(255, 255, 255);</string>
        </property>
        <property name="text">
-        <string>File Name</string>
+        <string>Quality</string>
        </property>
       </widget>
       <widget class="QRadioButton" name="Low">
        <property name="geometry">
         <rect>
          <x>130</x>
-         <y>320</y>
+         <y>330</y>
          <width>111</width>
          <height>51</height>
         </rect>
@@ -1520,7 +1768,7 @@ font: 20pt &quot;Segoe UI Symbol&quot;;</string>
        <property name="geometry">
         <rect>
          <x>270</x>
-         <y>320</y>
+         <y>330</y>
          <width>111</width>
          <height>51</height>
         </rect>
@@ -1540,7 +1788,7 @@ font: 20pt &quot;Segoe UI Symbol&quot;;</string>
        <property name="geometry">
         <rect>
          <x>410</x>
-         <y>320</y>
+         <y>330</y>
          <width>111</width>
          <height>51</height>
         </rect>
@@ -1594,7 +1842,7 @@ color: none;</string>
        <property name="geometry">
         <rect>
          <x>440</x>
-         <y>370</y>
+         <y>380</y>
          <width>71</width>
          <height>20</height>
         </rect>
@@ -1633,6 +1881,183 @@ border-radius: 10px;</string>
         <pixmap>Mesmerizing Geometric GIFs by Florian de Looij _ Inspiration Grid.gif</pixmap>
        </property>
       </widget>
+      <widget class="QFrame" name="frame_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>571</width>
+         <height>131</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="thumbnai2_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>165</width>
+          <height>109</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 29px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../../../.designer/backup/tbls/thunbail.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="wordWrap">
+         <bool>false</bool>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="vidname_3">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>10</y>
+          <width>371</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: none;</string>
+        </property>
+        <property name="inputMethodHints">
+         <set>Qt::ImhNone</set>
+        </property>
+        <property name="text">
+         <string notr="true">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AAAAAAAAAAAAAA&lt;/p&gt;&lt;p&gt;AAAAAAAAAAAAAA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="textFormat">
+         <enum>Qt::AutoText</enum>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="margin">
+         <number>1</number>
+        </property>
+        <property name="indent">
+         <number>-1</number>
+        </property>
+        <property name="openExternalLinks">
+         <bool>false</bool>
+        </property>
+        <property name="textInteractionFlags">
+         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByMouse</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="frame_11">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>190</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="VideoSize_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Symbol</family>
+          <pointsize>21</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: none;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>Size</string>
+        </property>
+       </widget>
+      </widget>
+      <zorder>frame_9</zorder>
+      <zorder>pushButton_5</zorder>
+      <zorder>pushButton_6</zorder>
+      <zorder>label_6</zorder>
+      <zorder>label_9</zorder>
+      <zorder>MP4</zorder>
+      <zorder>AVI</zorder>
+      <zorder>MP3</zorder>
+      <zorder>label_10</zorder>
+      <zorder>Low</zorder>
+      <zorder>High</zorder>
+      <zorder>Custom</zorder>
+      <zorder>qts</zorder>
+      <zorder>qts_2</zorder>
+      <zorder>CustomQ</zorder>
+      <zorder>loading_2</zorder>
+      <zorder>frame_11</zorder>
      </widget>
     </widget>
     <widget class="QWidget" name="page_5">
@@ -1811,12 +2236,36 @@ color: rgb(255, 255, 255);</string>
         <set>Qt::AlignCenter</set>
        </property>
       </widget>
+      <widget class="QFrame" name="frame_10">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>571</width>
+         <height>112</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QFrame {
+    
+	background-color: qlineargradient(spread:pad, x1:0.0284091, y1:1, x2:1, y2:0, stop:0 rgba(48, 91, 233), stop:1 rgba(72, 25, 155));
+	color: rgb(220, 220, 220);
+    border-radius: 20px;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+      </widget>
      </widget>
      <widget class="QLabel" name="label_11">
       <property name="geometry">
        <rect>
         <x>30</x>
-        <y>0</y>
+        <y>20</y>
         <width>531</width>
         <height>41</height>
        </rect>
@@ -1842,7 +2291,7 @@ color: rgb(255, 255, 255);</string>
       <property name="geometry">
        <rect>
         <x>70</x>
-        <y>30</y>
+        <y>50</y>
         <width>461</width>
         <height>51</height>
        </rect>
@@ -1944,10 +2393,10 @@ color: rgb(255, 255, 255);</string>
       <widget class="QPushButton" name="openfilebutton">
        <property name="geometry">
         <rect>
-         <x>100</x>
+         <x>320</x>
          <y>170</y>
-         <width>361</width>
-         <height>58</height>
+         <width>241</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="maximumSize">
@@ -1958,7 +2407,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>39</pointsize>
+         <pointsize>28</pointsize>
         </font>
        </property>
        <property name="styleSheet">
@@ -1987,10 +2436,10 @@ color: rgb(204, 204, 204);
       <widget class="QPushButton" name="openfilefolder">
        <property name="geometry">
         <rect>
-         <x>130</x>
-         <y>240</y>
-         <width>311</width>
-         <height>58</height>
+         <x>10</x>
+         <y>170</y>
+         <width>231</width>
+         <height>41</height>
         </rect>
        </property>
        <property name="maximumSize">
@@ -2001,7 +2450,7 @@ color: rgb(204, 204, 204);
        </property>
        <property name="font">
         <font>
-         <pointsize>25</pointsize>
+         <pointsize>18</pointsize>
         </font>
        </property>
        <property name="styleSheet">
@@ -2031,7 +2480,7 @@ color: rgb(204, 204, 204);
        <property name="geometry">
         <rect>
          <x>160</x>
-         <y>310</y>
+         <y>280</y>
          <width>255</width>
          <height>58</height>
         </rect>
@@ -2121,7 +2570,7 @@ color: rgb(204, 204, 204);
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="buttonGroup"/>
   <buttongroup name="buttonGroup_2"/>
+  <buttongroup name="buttonGroup"/>
  </buttongroups>
 </ui>

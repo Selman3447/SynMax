@@ -392,8 +392,10 @@ class MainWindow (QMainWindow):
             outpout = fillse.download (self.ui.FileLocName.text ( ))
             base, ext = os.path.splitext (outpout)
             new_file = base + f"{self.ui.qts.text()}"
-            os.rename (outpout, new_file)
-
+            oldfile = self.ui.FileLocName.text ( ) + '\\' + self.ui.Filebar.text() + f"{self.ui.qts.text()}"
+            print ("newfile", new_file)
+            print("oldfile", oldfile)
+            os.rename (outpout, oldfile)
             # if ui.High.isChecked():
             # fills = yt.streams.get_highest_resolution().filesize
             # vs = fills / (1024 * 1024)

@@ -1,3 +1,20 @@
+1.6.1
+
+News:
+
+[+]Added:Paste Button
+
+
+
+1.6
+
+News:
+
+[=]Changed:App theme
+[*]Code is optimized
+
+
+
 1.5
 
 News:
