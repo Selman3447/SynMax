@@ -1,1 +1,1 @@
-SynMax Video Downloader|1.6
+SynMax Video Downloader|1.6.1
